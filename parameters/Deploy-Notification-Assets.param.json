@@ -1,0 +1,43 @@
+{
+  "ALZMonitorResourceGroupName": {
+    "value": "${ALZMonitorResourceGroupName}"
+  },
+  "ALZMonitorResourceGroupLocation": {
+    "value": "${ALZMonitorResourceGroupLocation}"
+  },
+  "ALZMonitorResourceGroupTags": {
+    "value": {
+      "Project": "amba-monitoring"
+    }
+  },
+  "ALZMonitorActionGroupEmail": {
+    "value": "vmisson@microsoft.com"
+  },
+  "ALZLogicappResourceId": {
+    "value": ""
+  },
+  "ALZLogicappCallbackUrl": {
+    "value": ""
+  },
+  "ALZArmRoleId": {
+    "value": ""
+  },
+  "ALZEventHubResourceId": {
+    "value": ""
+  },
+  "ALZWebhookServiceUri": {
+    "value": ""
+  },
+  "ALZFunctionResourceId": {
+    "value": ""
+  },
+  "ALZFunctionTriggerUrl": {
+    "value": ""
+  },
+  "BYOActionGroup": {
+    "value": ""
+  },
+  "BYOAlertProcessingRule": {
+    "value": ""
+  }
+}

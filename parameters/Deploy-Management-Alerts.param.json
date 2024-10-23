@@ -1,0 +1,64 @@
+{
+  "ALZMonitorResourceGroupName": {
+    "value": "${ALZMonitorResourceGroupName}"
+  },
+  "ALZMonitorResourceGroupLocation": {
+    "value": "${ALZMonitorResourceGroupLocation}"
+  },
+  "ALZMonitorResourceGroupTags": {
+    "value": {
+      "Project": "amba-monitoring"
+    }
+  },
+  "AATotalJobAlertSeverity": {
+    "value": "2"
+  },
+  "AATotalJobAlertWindowSize": {
+    "value": "PT5M"
+  },
+  "AATotalJobAlertEvaluationFrequency": {
+    "value": "PT1M"
+  },
+  "AATotalJobAlertPolicyEffect": {
+    "value": "deployIfNotExists"
+  },
+  "AATotalJobAlertAlertState": {
+    "value": "true"
+  },
+  "AATotalJobAlertThreshold": {
+    "value": "20"
+  },
+  "RVBackupHealthMonitorPolicyEffect": {
+    "value": "modify"
+  },
+  "StorageAccountAvailabilityAlertSeverity": {
+    "value": "1"
+  },
+  "StorageAccountAvailabilityWindowSize": {
+    "value": "PT5M"
+  },
+  "StorageAccountAvailabilityFrequency": {
+    "value": "PT5M"
+  },
+  "StorageAccountAvailabilityPolicyEffect": {
+    "value": "deployIfNotExists"
+  },
+  "StorageAccountAvailabilityAlertState": {
+    "value": "true"
+  },
+  "StorageAccountAvailabilityThreshold": {
+    "value": "90"
+  },
+  "StorageAccountDeletePolicyEffect": {
+    "value": "deployIfNotExists"
+  },
+  "StorageAccountDeleteAlertState": {
+    "value": "true"
+  },
+  "activityLAWDeleteAlertState": {
+    "value": "true"
+  },
+  "activityLAWKeyRegenAlertState": {
+    "value": "true"
+  }  
+}

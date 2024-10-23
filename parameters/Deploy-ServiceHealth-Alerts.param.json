@@ -1,0 +1,43 @@
+{
+  "ALZMonitorResourceGroupName": {
+    "value": "${ALZMonitorResourceGroupName}"
+  },
+  "ALZMonitorResourceGroupLocation": {
+    "value": "${ALZMonitorResourceGroupLocation}"
+  },
+  "ALZMonitorResourceGroupTags": {
+    "value": {
+      "Project": "amba-monitoring"
+    }
+  },
+  "ResHlthUnhealthyAlertState": {
+    "value": "true"
+  },
+  "ResHlthUnhealthyPolicyEffect": {
+    "value": "deployIfNotExists"
+  },
+  "SvcHlthAdvisoryAlertState": {
+    "value": "true"
+  },
+  "serviceHealthAdvisoryPolicyEffect": {
+    "value": "deployIfNotExists"
+  },
+  "SvcHlthIncidentAlertState": {
+    "value": "true"
+  },
+  "serviceHealthIncidentPolicyEffect": {
+    "value": "deployIfNotExists"
+  },
+  "SvcHlthMaintenanceAlertState": {
+    "value": "true"
+  },
+  "serviceHealthMaintenancePolicyEffect": {
+    "value": "deployIfNotExists"
+  },
+  "svcHlthSecAdvisoryAlertState": {
+    "value": "true"
+  },
+  "serviceHealthSecurityPolicyEffect": {
+    "value": "deployIfNotExists"
+  }
+}
